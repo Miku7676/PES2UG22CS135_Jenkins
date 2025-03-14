@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'cd main && ./main_cs135'
+                sh './main_cs135'
                 echo 'Test success'
             }
         }
